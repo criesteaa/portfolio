@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <title>Portfolio</title>
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" href="styles.css">
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== SwiperJS CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Athena Khrysta Marie <Span>Ramos</Span>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--=================== main ====================-->
+    <main class="main">
+        <!--=================== Hero ====================-->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Hi, I am <br> Athena Khrysta Marie M. Ramos</h1>
+                        
+                        <h2 id="typewriter"
+                            style="font-size: 25px; font-weight: bold; color: #f393a3; border-right: 2px solid #f393a3; white-space: nowrap; overflow: hidden; display: inline-block;">
+                        </h2>
+                        <p style="margin-top:15px;" class="hero__description">🌟Hello! I am 
+                            a passionate web developer with a love for design and technology. 
+                            I enjoy creating seamless user experiences and clean, efficient code.
+                            With experience in both front-end and back-end technologies, I strive to build applications that are both functional and aesthetically pleasing. 
+                            Let's work together to bring your ideas to life!
+
+                        </p>
+                        <a href="mailto:ramosathenakhrystamarie@gmail.com" class="btn--primary"
+                            style="padding:1.0rem 3rem;margin-bottom:20px;display:inline-block;">Hire Me!</a>
+                        <div class="hero__info">
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number"></p>
+                                <h2 class="hero__info-title"><br></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/id.png" alt="Athena" class="hero__img">
+                </div>
+            </div>
+        </section>
+        <!--=================== About ====================-->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Who am I</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">I am a passionate Designer and Front-End Developer,</h3>
+                        <p class="about__description">I specialize in creating visually appealing and user-friendly interfaces that provide seamless user experiences. 
+                            I stay inspired by exploring the latest design trends and front-end technologies, always striving to enhance my skills. 
+                            I enjoy tackling creative challenges and collaborating with teams to craft exceptional digital solutions.
+                        </p>
+                        <a href="#project" class="btn btn--primary">Know More</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Technologies I've been working with:</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Design Tools</h4>
+                                <ul class="skills__list">
+
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Figma</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Sketch</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Canva</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Frontend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        HTML</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        CSS</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        JavaScript</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Bootstrap</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        React</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Next JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== skills ====================-->
+        <section id="skills" class="section skills" style="padding: 80px 0; background-color: inherit;">
+            <div style="max-width: 1200px; margin: 0 auto; padding: 0 24px;">
+                <h2 style="font-size: 32px; font-weight: bold; text-align: center; color: white; margin-bottom: 32px;">
+                    Skills
+                </h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
+                    <!-- Front-End Development -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-layout-4-fill" style="font-size: 40px; color: #4299e1;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            Front-End Development
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Developing responsive and engaging user interfaces 
+                            using the latest web technologies to enhance user experience.</p>
+                    </div>
+
+                    <!-- UI/UX Design -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-pen-nib-fill" style="font-size: 40px; color: #9f7aea;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            UI/UX Design
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Crafting intuitive and visually stunning designs that deliver seamless user experiences \
+                            for web and mobile applications.</p>
+                    </div>
+
+
+                    <!-- Mobile App Development -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-smartphone-line" style="font-size: 40px; color: #319795;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            Mobile App Development
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Building efficient and user-friendly mobile applications for 
+                            Android platforms using Kotlin.
+
+
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=================== Projects ====================-->
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projects</h2>
+                    <span class="section__subtitle">My recent work</span>
+                </div>
+                <div class="d-grid project__wrapper">
+                    <!--============== project 1 =============-->
+                    <div class="project__content">
+                        <img src="images/dream.png" alt="DreamNails" class="project__img">
+                        <a href="https://github.com/criesteaa" class="project__link">
+                            <h3 class="project__title">DreamNails Website</h3>
+                        </a>
+                        <p class="project__description">A beautifully designed and user-friendly website for DreamNails, showcasing their services, gallery, and booking options. 
+                            The site focuses on delivering a seamless experience for customers exploring their brand.</p>
+                        <a href="https://github.com/criesteaa" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--============== project 2 =============-->
+                    <div class="project__content">
+                        <img src="images/web.jpg" alt="YoFit " class="project__img">
+                        <a href="https://github.com/criesteaa" class="project__link">
+                            <h3 class="project__title">Yofit Gym Management Solutions</h3>
+                        </a>
+                        <p class="project__description">Developed the YoFit Web, an all-in-one gym management platform for employees at YOKOKS Cebu. 
+                            The website offers tools for inventory management, member management, scheduling, billing, and reporting,
+                             making it easier for the gym staff to efficiently manage daily operations.</p>
+                        <a href="https://github.com/criesteaa" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                    <!--============== project 3 =============-->
+                    <div class="project__content">
+                        <img src="images/yofit_app.png" alt="YoFit " class="project__img">
+                        <a href="https://github.com/criesteaa" class="project__link">
+                            <h3 class="project__title">YoFit App</h3>
+                        </a>
+                        <p class="project__description">Developed the YoFit App, a personalized fitness mobile app for gym members. 
+                            The app provides tailored workout plans, and progress tracking, 
+                            designed to enhance the gym member experience and keep users motivated on their fitness journey.</p>
+                        <a href="https://github.com/criesteaa" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+                <div style="align-items: center;justify-content: center;display: flex; margin-top:10px;"><a
+                        href="https://github.com/criesteaa" class="btn--primary"
+                        style="padding:1.5rem 4rem;margin-top:10px;display: inline-block;align-items:center;text-align:center;justify-content:center;">View
+                        More Projects
+                        <i style="text-align:center;" class="fa-solid fa-angle-down fa-bounce"></i></a></div>
+            </div>
+
+        </section>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+        </div>
+        </section>
+
+        <!--=================== Contact ====================-->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="d-grid contact__wrapper">
+                    <div class="contact__content">
+                        <h2 class="contact__title">Interested in working together? Let's talk</h2>
+                        <p class="contact__description">
+                            Ready to collaborate on your next software project? I’d love to hear from you!
+                            Feel free to reach out using the contact details below.
+                            Whether you have a project idea or just want to chat about development, I’m here to help.
+                            I’ll get back to you as quickly as I can—looking forward to connecting with you!
+                        </p>
+                    </div>
+                    <div class="contact__btn">
+                        <a style="align-items:center; gap:10px; text-align:center;"
+                            href="https://www.linkedin.com/in/athena-khrysta-marie-ramos-a1987b288/" class="btn btn--secondary">Get in touch
+                            <i class="fa-solid fa-handshake"></i></a>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    <!--=================== footer ====================-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper"
+                style="display:flex;justify-content:center; align-items:center; text-align:center;">
+                <div class="footer__content">
+                    <h4 class="footer__title">Follow Me</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="mailto:ramosathenakhrystamarie@gmail.com" target="_blank" class="footer__social-link">
+                                <i class="fa-regular fa-envelope fa-beat-fade"></i>
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com/criestea_/" target="_blank"
+                                class="footer__social-link">
+                                <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.linkedin.com/in/athena-khrysta-marie-ramos-a1987b288/" target="_blank" class="footer__social-link">
+                                <i class="fa-brands fa-linkedin-in fa-beat-fade"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://github.com/criesteaa" target="_blank" class="footer__social-link">
+                                <i class="fa-brands fa-github fa-fade"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.facebook.com/akmrakmr" target="_blank" class="footer__social-link">
+                                <i class="fa-brands fa-facebook fa-beat-fade"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <p class="footer__copyright">&copy; 2025 Athena Khrysta Marie M. Ramos . All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!--=================== SwiperJS  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=================== Main JS ====================-->
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+<script>
+    const typewriterTexts = [
+      "Innovative Thinker",
+      "UI/UX Designer",
+      "Front-End Developer",
+      "Creative Problem Solver",
+    ];
+
+    let currentTextIndex = 0;
+    let charIndex = 0;
+
+    const typewriterElement = document.getElementById("typewriter");
+
+    function typeEffect() {
+      // Get the current text
+      const currentText = typewriterTexts[currentTextIndex];
+
+      // Update the text content with the next character
+      typewriterElement.textContent = currentText.slice(0, charIndex);
+
+      // Increment the character index
+      charIndex++;
+
+      // If the full text has been typed, pause and then switch to the next text
+      if (charIndex > currentText.length) {
+        setTimeout(() => {
+          charIndex = 0; // Reset character index
+          currentTextIndex = (currentTextIndex + 1) % typewriterTexts.length; // Move to next text
+        }, 2000); // Pause before switching
+      }
+
+      // Continue typing every 100ms
+      setTimeout(typeEffect, 100);
+    }
+
+    // Start the typewriter effect
+    typeEffect();
+</script>
